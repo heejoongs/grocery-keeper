@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Grocery Keeper
+  datasource:
+    #driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/grocery_keeper
+    username: root
+    password:
+  jpa:
+    show-sql: true
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
